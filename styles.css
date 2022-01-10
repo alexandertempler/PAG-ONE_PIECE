@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #e51010 url(images/isla-fondo.jpg) repeat fixed;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	width: 90%;
+	height: 200px;
+	background-color:rgba(66, 215, 241, 0.685);
+	padding: 0.3% 0 0 0;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	text-align: center;
+}
+
+nav {
+	width: 100%;
+	height: auto;
+	background: rgb(38, 87, 150);
+	display: flex;
+	justify-content: space-around;
+}
+nav > a {
+	font-family: miFuenteTitulo;
+	padding: 1% 2%;
+	margin-left: 60px;
+}
+main {
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	background: rgba(68, 157, 229, 0.685);
+	padding-bottom: 2%;
+	margin: 0px;
+	padding: 0px;
+}
+main img {
+	width: 100%;
+}
+main h2, section > h1  {
+	border-top: 1px solid hsl(0, 0%, 100%);
+	text-align: center;
+}
+
+section {
+	width: 94%;
+	margin: 0 auto;
+	margin-bottom: 1%;
+}
+footer {
+	width: 90%;
+	height: auto;
+	background-color: rgba(103, 231, 131, 0.582);
+	margin-bottom: 5px;
+	padding: 0.5% 0 0.5% 0;
+	text-align: center;
+}
+footer > p {
+	color: rgb(41, 41, 41);
+}
+header, nav, main, footer {
+	display: block;
+	margin: 0 auto;
+}
+h1 {
+	color: black;
+	font-family: miFuenteTitulo;
+	font-weight: 900;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 60px;
+}
+h2 {
+	font-size: 30px;
+	font-family: miFuenteSubTitulo;
+	font-weight: 900;
+	line-height: 45px;
+}
+h3 {
+	font-size: 26px;
+	font-family: miFuenteDescripcion;
+	font-weight: 700;
+	line-height: 39px;
+}
+p {
+	font-size: 18px;
+	line-height: 27px;
+	font-family: miFuenteParrafo;
+}
+.descrip-one_piece {
+	display: flex;
+}
+.descrip-one_piece > img {
+	width: 60%;
+}
+.descrip-one_piece > div {
+	margin-left: 5px;
+	background-color: rgba(241, 119, 81, 0.685);
+	padding-left: 5px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px;
+}
+
+.section-pj-one_piece {
+	padding: 2%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section-pj-one_piece > div {
+	width:16.7%;
+	height: auto;
+	border-color:rgba(0, 0, 0, 0.5);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	color: black;
+	background-color: rgba(240, 255, 35, 0.685);
+	padding: 1%;
+	float: left;
+	text-align: center;
+	margin: 5px;
+}
+.section-sagas_arcos {
+	width:auto;
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid;
+	border-width: 1px;
+	border-color: bisque;
+	background-color: rgba(43, 248, 180, 0.582);
+	border-radius:5px;
+}
+.fla-section-sagas_arcos {
+	margin: 2px;
+	display: flex;
+	flex-flow: column;
+	width:32%;
+}
+.txt-section-sagas_arcos-top,.txt-section-sagas_arcos-center,.txt-section-sagas_arcos-bottom {
+	display:flex;
+	flex-flow: column;
+	border-style: solid;
+	border-width: 1px;
+	border-color: bisque;
+	margin:4px;
+	padding: 0 4px 0 2px;
+	background-color: rgba(243, 167, 52, 0.671);
+	border-radius:5px;
+}
+.txt-section-sagas_arcos-top {
+	height:720px;
+}
+.txt-section-sagas_arcos-center {
+	height:480px;
+}
+.txt-section-sagas_arcos-bottom {
+	height:300px;
+}
+.txt-section-sagas_arcos-top h3,.txt-section-sagas_arcos-center h3,.txt-section-sagas_arcos-bottom h3 {
+	text-align:center;
+}
+.txt-section-sagas_arcos-top a,.txt-section-sagas_arcos-center a,.txt-section-sagas_arcos-bottom a {
+	font-family: miFuenteTitulo;margin-top:2%;
+	padding: 3%;
+	width:94%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: bisque;
+	border-radius:10px;
+}
+.modulo img {
+	width: 100%;
+}
+
+.cajita-orange {
+	width: 35px;
+	padding: 1%;
+	text-align: center;
+	position: fixed;
+	bottom: 2%;
+	right: 0;
+	margin-right:30px ;
+}
+.cajita-orange  img{
+    padding:10px;
+	background: #e9ff007a;
+	border-radius:100%;
+}
+.cajita-orange > a:hover {
+background-color: rgba(255, 255, 255, 0);
+}
+figure {
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+figcaption {
+	font-family: 'Lato', sans-serif;
+}
+a:link, a:visited {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover, a:active {
+	color: cyan;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+	font-family: miFuenteTitulo;
+	src: url(fonts/Finland.ttf);
+}
+@font-face {
+	font-family: miFuenteSubTitulo;
+	src: url(fonts/DancingScript.ttf);
+}
+
+@font-face {
+	font-family: miFuenteDescripcion;
+	src: url(fonts/ZillaSlab-Italic.ttf);
+}
+@font-face {
+	font-family: miFuenteParrafo;
+	src: url(fonts/georgiai.ttf);
+}
+
+/* == DISEÑO RESPONSIVE == */
+
+@media screen and (max-width: 768px) {
+
+	a:link {
+		width: 96%;
+		padding: 2%;
+	}
+	footer {
+		width: 96%;
+		text-align: center;
+	}
+	header {
+		width: 100%;
+		text-align: center;
+	}
+	nav, main {
+		width: 100%;
+	}
+	figure img, .modulo img {
+		width: 100%;
+	}
+	.modulo {
+		width: 96%;
+	}
+	.cajita-orange {
+		position: fixed;
+		width: 8%;
+		}
+
+} /* NO BORRAR - CIERRE DEL MEDIA QUERIES */
